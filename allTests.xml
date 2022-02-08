@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests of heroku app">
+    <test name="Run all existing tests">
+        <classes>
+            <class name="TC001_UserIsAbleToAddAndRemoveItems">
+            </class>
+            <class name="TC002_UserIsAbleToAuthorizeIntoAppByBasicAuth">
+            </class>
+            <class name="TC004_UserIsAbleToCheckAndUncheckCheckboxes">
+            </class>
+            <class name="TC005_UserShouldSeeAlertOnThePageAfterRightClickingOnSpecificArea">
+            </class>
+            <class name="TC006_VerifyingThatHiddenItemCanBeShownAfterPollingThePage">
+            </class>
+            <class name="TC008_UserIsAbleToSelectValueFromDropdownList">
+            </class>
+            <class name="TC009_UserIsAbleToEnableDisableInputFieldAndAddDeleteCheckbox">
+            </class>
+            <class name="TC0010_VerifyThatElementsDynamicallyLoaded">
+            </class>
+            <class name="TC0011_UserIsAbleToSeeModalWindowAndCanCloseIt">
+            </class>
+            <class name="TC0012_UserIsAbleToDownloadFiles">
+            </class>
+            <class name="TC0013_ForgotPasswordFunctionalityWorksCorrectly">
+            </class>
+            <class name="TC0014_UserIsAbleToLogin">
+            </class>
+            <class name="TC0015_TextInTheNestedFramesIsShownCorrectly">
+            </class>
+            <class name="TC0016_HorizontalSliderWorksCorrectlyViaMouseAndKeyboard">
+            </class>
+            <class name="TC0017_UserIsAbleToSeeAdditionalInformationAfterHoverTheMouseOntoAvatar">
+            </class>
+            <class name="TC0018_UserIsAbleToEnterNumberInTheField">
+            </class>
+            <class name="TC0019_jQueryUIMenuFunctionality">
+            </class>
+            <class name="TC0020_UserIsAbleToWorkWithAlerts">
+            </class>
+            <class name="TC0021_CorrectInformationAboutPressedKeyInKeyboardIsShownOnThePage">
+            </class>
+            <class name="TC0022_UserIsAbleToOpenAndNavigateToTheNewWindow">
+            </class>
+            <class name="TC0023_UserIsAbleToSortTableDescAndAsc">
+            </class>
+            <class name="TC0025_VerifyStatusCodes">
+            </class>
+            <class name="TC0026_VerifyCorrectNotificationMessages">
+            </class>
+        </classes>
+    </test>
+</suite>
